@@ -1,0 +1,25 @@
+.body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.aboutus-img-container {
+    width:100%
+}
+.aboutus-img {
+    height:600px;
+    width:100%;
+}
+
+.outline {
+    border:1px solid yellow;
+}
+
+.aboutus-header {
+    font-size: 30px;
+    text-align: center;
+}
+.profile-pics {
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}

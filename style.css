@@ -1,0 +1,71 @@
+:root {
+  --grey: grey;
+  --purple: rgb(138, 110, 255);
+  --darkerpurple: rgb(234, 229, 255);
+  --white: rgb(255, 255, 255);
+  --green: rgb(116, 235, 116);
+  --orange: #ffac1c;
+}
+.grey {
+  color: var(--grey);
+}
+.green {
+  color: var(--green);
+}
+.purple {
+  color: var(--purple);
+}
+.black {
+  color: black;
+}
+.orange {
+  color: var(--orange);
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.outline {
+  border: 1px solid black;
+}
+.outline2 {
+  border: 1px solid red;
+}
+#host-card:hover {
+  box-shadow: 0px 0px 5px 0px rgba(199, 197, 199, 1);
+  cursor: pointer;
+}
+
+.profile-icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fontsize-light {
+  font-size: 6px;
+}
+.fontsize-medium {
+  font-size: 10px;
+}
+.fontsize-header {
+  font-size: 25px;
+}
+.position-leftbox {
+  top: -40px;
+  left: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: var(--darkerpurple);
+}
+.position-rightbox {
+  top: -40px;
+  right: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  background-color: var(--white);
+}
+.img-height {
+    height: 200px;
+}
