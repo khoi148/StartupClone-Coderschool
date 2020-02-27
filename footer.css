@@ -1,0 +1,90 @@
+.gift-card {
+    background-color: rgb(251, 249, 238);
+}
+
+.private-event {
+    background-color: rgb(53, 53, 48);
+}
+
+.btn-secondary {
+    background-color: rgb(53, 53, 48);
+    border: 1px solid white;
+}
+
+.btn-secondary:hover {
+    color: black;
+    background-color: white;
+}
+
+.subscribe {
+    background-color: rgb(53, 53, 48);
+}
+
+.subscribe-badge {
+    width: 120px;
+    height: 120px;
+}
+
+.subscribe-title {
+    color: #fffad1;
+}
+
+.jumbotron {
+    background-color: #353530;
+    color: white;
+}
+
+.logo {
+    width: 120px;
+    height: 30px;
+}
+
+.title-footer {
+    height: 30px;
+}
+
+.mobile-btn {
+    width: 125px;
+    height: 50px;
+}
+
+.mobile-btn-apple {
+    height: 40px;
+    width: 125px;
+}
+
+.col-lg-2 {
+    font-size: 20px;
+    color: #fffad1;
+}
+
+.col-lg-6 {
+    font-size: 20px;
+    color: #fffad1;
+}
+
+.pl-3 {
+    color: #fffad1;
+}
+
+.text-white {
+    font-size: 14px;
+}
+
+.text-white:hover {
+    text-decoration: none;
+    color: lightgreen !important;
+}
+
+hr {
+    box-sizing: content-box;
+    background-color: white;
+    height: 0;
+    border: 0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid #dfe2e7;
+    border-right-width: 0px;
+    border-color: rgba(255, 255, 255, .12);
+    ;
+}
