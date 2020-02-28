@@ -1,6 +1,12 @@
 * {
   font-family: Circular Std Book;
 }
+
+#explore-section{
+  background-color: beige;
+  margin: 0px;
+}
+
 #explore-section .exp-heading {
   /*padding-left: 40px; */
 }
