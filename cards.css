@@ -1,14 +1,11 @@
 * {
   font-family: Circular Std Book;
 }
-<<<<<<< HEAD
 
 #explore-section{
   background-color: beige;
-  margin: 0px;
 }
 
-=======
 :root {
    --green1: #8bc3a0;
    --green2: #348652 ;
@@ -17,7 +14,6 @@
    --orange1: #ffa482;
    --orange2: #FFDCCF;
 }
->>>>>>> 89a9a1ae6364fcb1c0d7276780a311c3466d1aea
 #explore-section .exp-heading {
   /*padding-left: 40px; */
 }
