@@ -8,7 +8,6 @@
 }
 
 #explore-section .section-1 > .card{
- padding: 15px; 
  border: 1px solid #eee; 
  transition: all .3s ease-in-out;
  background-color: beige
@@ -21,7 +20,7 @@
 }
 
 #explore-section .card-group > .card{
-   margin: 15px;
+   margin: 10px;
    background-color: beige;
 }
 
@@ -55,7 +54,6 @@
  background-color: beige;
  color: darkgrey;
  font-size: 16px;
- padding: 12px 24px;
  border: none;
  cursor: pointer;
  border-radius: 5px; 
@@ -93,7 +91,9 @@
  color: beige;
 }
 
+#explore-section .card-img{
+  height: 100%;
+}
 *{
  font-family: Circular Std Book;
 }
-
