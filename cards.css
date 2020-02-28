@@ -1,12 +1,23 @@
 * {
   font-family: Circular Std Book;
 }
+<<<<<<< HEAD
 
 #explore-section{
   background-color: beige;
   margin: 0px;
 }
 
+=======
+:root {
+   --green1: #8bc3a0;
+   --green2: #348652 ;
+   --red: #f66d4f;
+   --red2: #FFB09F;
+   --orange1: #ffa482;
+   --orange2: #FFDCCF;
+}
+>>>>>>> 89a9a1ae6364fcb1c0d7276780a311c3466d1aea
 #explore-section .exp-heading {
   /*padding-left: 40px; */
 }
@@ -33,15 +44,26 @@
 }
 
 #explore-section .first-card-row{
-   background-color: 	#f66d4f;
+   background-color: var(--red);
 }
 
 #explore-section .second-card-row{
- background-color: 		#8bc3a0;
+ background-color: 	var(--green1);
 }
 #explore-section .third-card-row{
-   background-color: #ffa482;
+   background-color: var(--orange1);
 }
+#explore-section .fa-utensils, .exp-heading-1 {
+   color:var(--red2);
+  }
+  
+  #explore-section .fa-lemon, .exp-heading-2 {
+   color: var(--green2);
+  }
+  
+  #explore-section .fa-route, .exp-heading-3{
+   color: var(--orange2);
+  }
 
 #explore-section .btn {
   position: absolute;
@@ -81,18 +103,6 @@
 
 #explore-section .h3 {
   font-weight: bolder;
-}
-
-#explore-section .fa-utensils, .exp-heading-1 {
- color: #FFB09F;
-}
-
-#explore-section .fa-lemon, .exp-heading-2 {
- color: #348652;
-}
-
-#explore-section .fa-route, .exp-heading-3{
- color: #FFDCCF;
 }
 
 #explore-section p {
