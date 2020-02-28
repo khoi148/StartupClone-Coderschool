@@ -44,10 +44,10 @@
 }
 
 #host-section .fontsize-light {
-  font-size: 6px;
+  font-size: 1em;
 }
 #host-section .fontsize-medium {
-  font-size: 10px;
+  font-size: 1.1em;
 }
 #host-section .fontsize-header {
   font-size: 25px;

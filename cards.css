@@ -1,29 +1,32 @@
-
- #explore-section .exp-heading{
+* {
+  font-family: Circular Std Book;
+}
+#explore-section .exp-heading {
   /*padding-left: 40px; */
 }
-#explore-section .section-1{
-   /* padding-left: 40px; */
-   /* padding-right: 40px; */
+#explore-section .section-1 {
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
 }
 
-#explore-section .section-1 > .card{
- border: 1px solid #eee; 
- transition: all .3s ease-in-out;
- background-color: beige
+#explore-section .section-1 > .card {
+  border: 1px solid #eee;
+  transition: all 0.3s ease-in-out;
+  background-color: beige;
 }
 
 #explore-section .card:hover {
- box-shadow: 0px 6px 5px -1px rgb(187, 187, 187);
- transform: translate3d(0px, -10px, 0px);
- transition: all .5s ease-in-out;
+  box-shadow: 0px 6px 5px -1px rgb(187, 187, 187);
+  transform: translate3d(0px, -10px, 0px);
+  transition: all 0.5s ease-in-out;
 }
 
-#explore-section .card-group > .card{
-   margin: 10px;
-   background-color: beige;
+#explore-section .card-group > .card {
+  margin: 10px;
+  background-color: beige;
 }
 
+<<<<<<< HEAD
 #explore-section .first-card-row{
    background-color: 	#f66d4f;
 }
@@ -33,48 +36,60 @@
 }
 #explore-section .third-card-row{
    background-color: #ffa482;
+=======
+#explore-section .first-card-row {
+  background-color: orange;
+}
+
+#explore-section .second-card-row {
+  background-color: #8a6eff;
+}
+#explore-section .third-card-row {
+  background-color: #fb88a2;
+>>>>>>> 81960225546b7391788f65f815f769f515d2a4d6
 }
 
 #explore-section .btn {
- position: absolute;
- display: none;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- color: rgb(53, 53, 48);
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: rgb(53, 53, 48);
 
- /*
+  /*
  background-color: beige;
  border: 1px solid beige;
  padding: .5rem 1rem;
  font-size: 1.25rem;
  line-height: 1.5; */
- 
- background-color: beige;
- color: darkgrey;
- font-size: 16px;
- border: none;
- cursor: pointer;
- border-radius: 5px; 
+
+  background-color: beige;
+  color: darkgrey;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 #explore-section .card:hover .btn {
- display: block;
- position: absolute;
- top: 50%;
- left:50%;
- transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- text-align: center;
- border-radius: 50px;
- font-size: 18px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 50px;
+  font-size: 18px;
 }
 
-#explore-section .h3{
- font-weight: bolder;
+#explore-section .h3 {
+  font-weight: bolder;
 }
 
+<<<<<<< HEAD
 #explore-section .fa-utensils, .exp-heading-1 {
  color: #FFB09F;
 }
@@ -85,15 +100,27 @@
 
 #explore-section .fa-route, .exp-heading-3{
  color: #FFDCCF;
+=======
+#explore-section .fa-utensils,
+.exp-heading-1 {
+  color: #fffad1;
 }
 
-#explore-section p{
- color: beige;
+#explore-section .fa-lemon,
+.exp-heading-2 {
+  color: rgb(209, 222, 255);
 }
 
-#explore-section .card-img{
+#explore-section .fa-route,
+.exp-heading-3 {
+  color: #923c63;
+>>>>>>> 81960225546b7391788f65f815f769f515d2a4d6
+}
+
+#explore-section p {
+  color: beige;
+}
+
+#explore-section .card-img {
   height: 100%;
-}
-*{
- font-family: Circular Std Book;
 }
