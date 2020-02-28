@@ -53,30 +53,30 @@ footer .mobile-btn-apple {
     width: 125px;
 }
 
-footer .col-lg-2 {
+.col-lg-2 {
     font-size: 20px;
     color: #fffad1;
 }
 
-footer .col-lg-6 {
+.col-lg-6 {
     font-size: 20px;
     color: #fffad1;
 }
 
-footer .pl-3 {
+.pl-3 {
     color: #fffad1;
 }
 
-footer .text-white {
+.text-white {
     font-size: 14px;
 }
 
-footer .text-white:hover {
+.text-white:hover {
     text-decoration: none;
     color: lightgreen !important;
 }
 
-footer hr {
+hr {
     box-sizing: content-box;
     background-color: white;
     height: 0;
