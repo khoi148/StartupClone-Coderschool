@@ -1,29 +1,99 @@
-.card {
-    padding: 15px; /* JUST TO LOOK COOL */
-    border: 1px solid #eee;  /* JUST TO LOOK COOL */
-    transition: all .3s ease-in-out;
-  }
-  
-  .card:hover {
-    box-shadow: 0px 6px 5px -1px rgb(224, 224, 224);
-    transform: translate3d(0px, -10px, 0px);
-  }
 
-  .row{
-      background-color: salmon;
-  }
+ #explore-section .exp-heading{
+  padding-left: 40px;
+}
+#explore-section .section-1{
+   /* padding-left: 40px; */
+   /* padding-right: 40px; */
+}
 
-  .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+#explore-section .section-1 > .card{
+ padding: 15px; 
+ border: 1px solid #eee; 
+ transition: all .3s ease-in-out;
+ background-color: beige
+}
+
+#explore-section .card:hover {
+ box-shadow: 0px 6px 5px -1px rgb(187, 187, 187);
+ transform: translate3d(0px, -10px, 0px);
+ transition: all .5s ease-in-out;
+}
+
+#explore-section .card-group > .card{
+   margin: 15px;
+   background-color: beige;
+}
+
+#explore-section .first-card-row{
+   background-color: orange;
+}
+
+#explore-section .second-card-row{
+ background-color: #8A6EFF;
+}
+#explore-section .third-card-row{
+   background-color: #FB88A2;
+}
+
+#explore-section .btn {
+ position: absolute;
+ display: none;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ color: rgb(53, 53, 48);
+
+ /*
+ background-color: beige;
+ border: 1px solid beige;
+ padding: .5rem 1rem;
+ font-size: 1.25rem;
+ line-height: 1.5; */
+ 
+ background-color: beige;
+ color: darkgrey;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px; 
+}
+
+#explore-section .card:hover .btn {
+ display: block;
+ position: absolute;
+ top: 50%;
+ left:50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ text-align: center;
+ border-radius: 50px;
+ font-size: 18px;
+}
+
+#explore-section .h3{
+ font-weight: bolder;
+}
+
+#explore-section .fa-utensils, .exp-heading-1 {
+ color: #FFFAD1;
+}
+
+#explore-section .fa-lemon, .exp-heading-2 {
+ color: rgb(209,222,255)
+}
+
+#explore-section .fa-route, .exp-heading-3{
+ color: #923C63;
+}
+
+#explore-section p{
+ color: beige;
+}
+
+*{
+ font-family: Circular Std Book;
+}
+
