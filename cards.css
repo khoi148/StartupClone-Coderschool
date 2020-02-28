@@ -25,14 +25,14 @@
 }
 
 #explore-section .first-card-row{
-   background-color: orange;
+   background-color: 	#f66d4f;
 }
 
 #explore-section .second-card-row{
- background-color: #8A6EFF;
+ background-color: 		#8bc3a0;
 }
 #explore-section .third-card-row{
-   background-color: #FB88A2;
+   background-color: #ffa482;
 }
 
 #explore-section .btn {
@@ -76,15 +76,15 @@
 }
 
 #explore-section .fa-utensils, .exp-heading-1 {
- color: #FFFAD1;
+ color: #FFB09F;
 }
 
 #explore-section .fa-lemon, .exp-heading-2 {
- color: rgb(209,222,255)
+ color: #348652;
 }
 
 #explore-section .fa-route, .exp-heading-3{
- color: #923C63;
+ color: #FFDCCF;
 }
 
 #explore-section p{
