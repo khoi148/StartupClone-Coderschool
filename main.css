@@ -1,82 +1,82 @@
-.gift-card {
+#banners-section .gift-card {
     background-color: rgb(251, 249, 238);
 }
 
-.private-event {
+#banners-section .private-event {
     background-color: rgb(53, 53, 48);
 }
 
-.btn-secondary {
+#banners-section .btn-secondary {
     background-color: rgb(53, 53, 48);
     border: 1px solid white;
 }
 
-.btn-secondary:hover {
+#banners-section .btn-secondary:hover {
     color: black;
     background-color: white;
 }
 
-.subscribe {
+#subscribe-section {
     background-color: rgb(53, 53, 48);
 }
 
-.subscribe-badge {
+#subscribe-section .subscribe-badge {
     width: 120px;
     height: 120px;
 }
 
-.subscribe-title {
+#subscribe-section .subscribe-title {
     color: #fffad1;
 }
 
-.jumbotron {
+footer .jumbotron {
     background-color: #353530;
     color: white;
 }
 
-.logo {
+footer .logo {
     width: 120px;
     height: 30px;
 }
 
-.title-footer {
+footer .title-footer {
     height: 30px;
 }
 
-.mobile-btn {
+footer .mobile-btn {
     width: 125px;
     height: 50px;
 }
 
-.mobile-btn-apple {
+footer .mobile-btn-apple {
     height: 40px;
     width: 125px;
 }
 
-.col-lg-2 {
+footer .col-lg-2 {
     font-size: 20px;
     color: #fffad1;
 }
 
-.col-lg-6 {
+footer .col-lg-6 {
     font-size: 20px;
     color: #fffad1;
 }
 
-.pl-3 {
+footer .pl-3 {
     color: #fffad1;
 }
 
-.text-white {
+footer .text-white {
     font-size: 14px;
 }
 
-.text-white:hover {
+footer .text-white:hover {
     text-decoration: none;
     color: lightgreen !important;
 }
 
-hr {
+footer hr {
     box-sizing: content-box;
     background-color: white;
     height: 0;
@@ -86,5 +86,4 @@ hr {
     border-top: 1px solid #dfe2e7;
     border-right-width: 0px;
     border-color: rgba(255, 255, 255, .12);
-    ;
 }
