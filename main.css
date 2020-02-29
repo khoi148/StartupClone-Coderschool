@@ -5,6 +5,8 @@
 }
 #banners-section .gift-card {
     background-color: rgb(251, 249, 238);
+    font-size: 20px;
+    color: #fffad1;
 }
 
 #banners-section .private-event {
@@ -30,7 +32,21 @@
     height: 120px;
 }
 
+#subscribe-section button {
+    background-color: rgb(53, 53, 48);
+    border: 1px solid white;
+}
+
+#subscribe-section button:hover {
+    background-color: white;
+    color: rgb(53, 53, 48);
+}
+
 #subscribe-section .subscribe-title {
+    color: #fffad1;
+}
+
+.private-event-title {
     color: #fffad1;
 }
 
@@ -58,25 +74,25 @@ footer .mobile-btn-apple {
     width: 125px;
 }
 
-.col-lg-2 {
+.footer-about {
     font-size: 20px;
     color: #fffad1;
 }
 
-.col-lg-6 {
-    font-size: 20px;
-    color: #fffad1;
-}
-
-.pl-3 {
-    color: #fffad1;
-}
-
-.text-white {
+.footer-about a {
     font-size: 14px;
 }
 
-.text-white:hover {
+.footer-about a:hover {
+    text-decoration: none;
+    color: lightgreen !important;
+}
+
+.footer-about li {
+    font-size: 14px;
+}
+
+.footer-policy a:hover {
     text-decoration: none;
     color: lightgreen !important;
 }
