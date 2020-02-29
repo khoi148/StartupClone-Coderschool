@@ -12,14 +12,9 @@
     height: 394px;
 }
 
-<<<<<<< HEAD
-.carousel-item .img{
-    object-fit:contain;
-=======
 
 #blog-section .carousel-item > .img{
     object-fit: cover;
->>>>>>> 808c83e441ce51e9fce801aea58626b5e7ed1455
 }
 
 
