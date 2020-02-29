@@ -1,7 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
-
-/* keeps carousel photos a consistent size */
-
 #blog-section .w-100 {
     width: 100% !important;
     height: 75vh; 
@@ -12,14 +8,8 @@
     height: 394px;
 }
 
-<<<<<<< HEAD
 .carousel-item .img{
     object-fit:contain;
-=======
-
-#blog-section .carousel-item > .img{
-    object-fit: cover;
->>>>>>> 808c83e441ce51e9fce801aea58626b5e7ed1455
 }
 
 
@@ -68,10 +58,6 @@
 
 #blog-section .insta-column{
     padding-right: 40px;
-}
-
-*{
-    font-family: Circular Std Book;
 }
 
 /* for the slider */

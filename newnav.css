@@ -1,5 +1,5 @@
 .khai-bg {
-    background-image: url(/food.jpg);
+    background-image: url(/images/background-dark.jpeg);
     background-repeat: none;
     background-size: 100%;
     width :100%;
@@ -28,7 +28,8 @@
     justify-content: space-between;
 }
 .khai-logo {
-    width : 100px;
+    width : 120px;
+    height: 120px;
 }
 .khai-btn {
     background-color: rgb(253, 120, 84);
