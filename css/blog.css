@@ -7,11 +7,7 @@
     height: 394px;
 }
 
-<<<<<<< HEAD:css/blog.css
 #blog-section .carousel-item > .img{
-=======
-#blog-section .carousel-item>.img {
->>>>>>> 9d73520222d2356ef016139dcabc3ca3f714f5be:blog.css
     object-fit: cover;
 }
 
