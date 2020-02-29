@@ -5,104 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/newnav.css">
 </head>
 
 <body>
     <nav class="khai-bg">
-        <nav class="navbar text-danger navbar-expand-lg navbar-light khainb">
 
-            <div style="width: 100%;display: flex; justify-content: space-between;">
-                <a class="navbar-brand" href="#"><img class="khai-logo" src="images/eatherelogo-1.png"/></a>
-                <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img class="khai-logo" src="images/eatherelogo-1.png" /></a>
+            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="aboutus.html">Gifts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white font-weight-bold" href="aboutus.html">Subscribe</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn text-light rounded-pill khai-btn" type="submit">Sign up</button>
+                </form>
             </div>
-
-            <div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-primary rounded-pill khai-btn" type="submit">Sign up</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
         </nav>
         <div class="container">
-            <div>
-                <h1 class="display-3 text-center khai-h1">Book unforgettable culinary experiences</h1>
-                <p class="text-center text-light khai-p">Join dining experiences, cooking classes and food tours with
-                    locals in 130+ countries</p>
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-search container rounded">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-                    <div class="input-group-sm nav-box col-lg-4">
-                        <h6 class="text-dark">What are you looking for ?</h6>
-                        <input class="form-control mr-sm-2 w-100 py-4" type="search" placeholder="Search"
-                            aria-label="Search" />
-                    </div>
-                    <div class="input-group-sm nav-box col-lg-3">
-                        <h6 class="text-dark">When are you available ?</h6>
-                        <input class="form-control mr-sm-2 w-100 py-4" type="date" placeholder="Select a date"
-                            aria-label="Search" />
-                    </div>
-                    <div class="input-group-sm nav-box col-lg-3">
-                        <div>
-                            <h6 class="text-dark">How many guests are going ?</h6>
-                            <input class="form-control mr-sm-2 py-4" type="number" placeholder="Guests"
-                                aria-label="Search">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="nav-title col-lg-12 col-md-6 nav-title text-center my-5">
+                    <h1 class="font-weight-bold">Book unforgettable culinary experiences.</h1>
+                    <p class="font-weight-bold mt-4 display-5 text-light">Join dining experiences, cooking classes and food tours with locals in 130+ countries</p>
+                </div>
+                <div class="container col-lg-12 col-md-6">
+                    <div class="row rounded bg-light p-3 mb-5">
+                        <div class="col-lg-4 w-100">
+                            <div class="font-weight-bold">What are you looking for?</div>
+                            <input class="p-4 w-100 form-control" type="text" placeholder="Search city, host or experience ">
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="font-weight-bold">When are you available?</div>
+                            <input class="p-4 w-100 form-control" type="text" placeholder="Select a date ">
+                        </div>
+                        <div class="col-lg-3 ">
+                            <div class="font-weight-bold">How many guests are going?</div>
+                            <input class="p-4 w-100 form-control" type="text" placeholder="Guests ">
+                        </div>
+                        <div class="col-lg-2 mt-4">
+                            <button type="button " class="button-search w-100 border-0 btn btn-lg text-white rounded-pill ">Search</button>
                         </div>
                     </div>
-                    <div class="nav-box col-lg-2 mt-4">
-                        <button class="btn btn-outline-success my-sm-0 btn-lg px-5 rounded-pill"
-                            type="submit">Search</button>
-                    </div>
                 </div>
-            </nav>
+            </div>
         </div>
 
     </nav>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
