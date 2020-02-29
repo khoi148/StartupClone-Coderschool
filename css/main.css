@@ -2,6 +2,9 @@
 * {
     font-family: Circular Std Book;
 }
+body {
+    margin: 0px;
+}
 
 #banners-section .gift-card {
     background-color: rgb(251, 249, 238);
