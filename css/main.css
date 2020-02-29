@@ -1,8 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
-
-*{
+* {
     font-family: Circular Std Book;
 }
+
 #banners-section .gift-card {
     background-color: rgb(251, 249, 238);
     font-size: 20px;
@@ -57,7 +57,7 @@ footer .jumbotron {
 
 footer .logo {
     width: 120px;
-    height: 30px;
+    height: 60px;
 }
 
 footer .title-footer {
