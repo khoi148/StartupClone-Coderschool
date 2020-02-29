@@ -1,79 +1,85 @@
 #blog-section .w-100 {
     width: 100% !important;
-    height: 75vh; 
+    height: 75vh;
 }
 
-
-#blog-section .carousel-item{
+#blog-section .carousel-item {
     height: 394px;
 }
 
+<<<<<<< HEAD:css/blog.css
 #blog-section .carousel-item > .img{
+=======
+#blog-section .carousel-item>.img {
+>>>>>>> 9d73520222d2356ef016139dcabc3ca3f714f5be:blog.css
     object-fit: cover;
 }
 
-
-#blog-section .blog{
+#blog-section .blog {
     background-color: #FBF9EE;
 }
 
-#blog-section .row{
+#blog-section .row {
     display: flex;
     justify-content: center;
 }
 
-#blog-section  .blog-container{
+#blog-section .blog-container {
     color: #35352F;
     background-color: #FBF9EE;
     position: relative;
     padding: 40px 80px;
     margin: 0px auto;
-
 }
 
-
-#blog-section #picture > img {
-    max-width:200px;
-    display:inline-block;
-    width:32%;
+#blog-section #picture>img {
+    max-width: 200px;
+    display: inline-block;
+    width: 32%;
 }
 
-#blog-section  h3{
+#blog-section h3 {
     font-weight: bolder;
 }
 
-#blog-section .blog-column > p, .blog-column > h3{
+#blog-section .blog-column>p,
+.blog-column>h3 {
     padding-left: 0px;
 }
 
-#blog-section  .insta-column > p, .blog-column > p {
+#blog-section .insta-column>p,
+.blog-column>p {
     font-style: italic;
 }
-#blog-section  .instaGrid{
+
+#blog-section .instaGrid {
     display: grid;
-    grid-template-columns: repeat(3,minmax(80px,150px));
+    grid-template-columns: repeat(3, minmax(80px, 150px));
     grid-gap: 8px;
 }
 
-
-#blog-section .insta-column{
+#blog-section .insta-column {
     padding-right: 40px;
 }
 
+
 /* for the slider */
+
 #blog-section img {
-    max-width:100%;
+    max-width: 100%;
     margin: 0;
 }
 
-#blog-section .container{
-    padding:0px;
+#blog-section .container {
+    padding: 0px;
 }
-#blog-section .insta-column, .blog-column{
+
+#blog-section .insta-column,
+.blog-column {
     padding: 10px 10px;
 }
 
-#explore-section .btn{
+#explore-section .btn {
     color: #35352F;
     background-color: #FBF9EE;
 }
