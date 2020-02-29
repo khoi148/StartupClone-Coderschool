@@ -14,13 +14,7 @@
    --orange1: #ffa482;
    --orange2: #FFDCCF;
 }
-#explore-section .exp-heading {
-  /*padding-left: 40px; */
-}
-#explore-section .section-1 {
-  /* padding-left: 40px; */
-  /* padding-right: 40px; */
-}
+
 
 #explore-section .section-1 > .card {
   border: 1px solid #eee;
@@ -68,7 +62,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: rgb(53, 53, 48);
+  color: black;
 
   /*
  background-color: beige;

@@ -1,6 +1,29 @@
 @import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 
-.blog{
+/* keeps carousel photos a consistent size */
+
+#blog-section .w-100 {
+    width: 100% !important;
+    height: 75vh; 
+}
+
+
+#blog-section .carousel-item{
+    height: 394px;
+}
+
+<<<<<<< HEAD
+.carousel-item .img{
+    object-fit:contain;
+=======
+
+#blog-section .carousel-item > .img{
+    object-fit: cover;
+>>>>>>> 808c83e441ce51e9fce801aea58626b5e7ed1455
+}
+
+
+#blog-section .blog{
     background-color: #FBF9EE;
 }
 
@@ -62,4 +85,9 @@
 }
 #blog-section .insta-column, .blog-column{
     padding: 10px 10px;
+}
+
+#explore-section .btn{
+    color: #35352F;
+    background-color: #FBF9EE;
 }
