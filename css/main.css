@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 * {
-    font-family: Arial;
+    font-family: Circular Std Book;
 }
 body {
     margin: 0px;
@@ -110,4 +110,8 @@ hr {
     border-top: 1px solid #dfe2e7;
     border-right-width: 0px;
     border-color: rgba(255, 255, 255, .12);
+}
+
+.footer .a:hover{
+    color: green;
 }
